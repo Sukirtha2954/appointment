@@ -1,0 +1,52 @@
+*
+.display{
+    display: block;
+}
+
+img{
+    
+    width: auto;
+    height: 500px;
+    background-size: contain;
+    border: 1px solid red;
+}
+
+body{
+    background-image: url("https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80");
+    width: auto;
+    height: 100px;
+}
+
+form{
+
+    position: absolute;
+    top: 15%;
+    left : 65%;
+    right: 15;
+    background-color: ghostwhite;
+    padding: 0px 75px;
+    border-radius: 5px ;
+}
+
+label{
+    font-family: 'Lobster', cursive;
+    font-size: 16px;
+    margin: 20px 0px 4px 0px;
+}
+#button{
+    font-family: 'Lobster', cursive;
+    display: block;
+    color: white;
+    background-color:black;
+    padding: 15px 20px;
+    margin: 40px auto;
+    border-radius: 30px;
+    border:none;
+}
+select,input[type="number"] [type="text"]{
+    font-family: 'Lobster', cursive;
+    width: 300px;
+    height: 40px;
+    border: 1px grey;
+    padding: 0px 5px;
+}
